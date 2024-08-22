@@ -6,3 +6,4 @@ class CalculatorState(TypedDict):
     first_number: int
     second_number: int
     result: int
+    operation: str

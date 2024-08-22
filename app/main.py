@@ -20,5 +20,5 @@ system_message = SystemMessage(
 calculator_graph = CalculatorGraph(llm, system_message)
 agent = calculator_graph.compile_graph()
 
-initial_state = {"first_number": 0, "second_number": 0, "result": 0}
+initial_state = {"first_number": 0, "second_number": 0, "result": 0, "operation": 1}
 agent.invoke(initial_state)
