@@ -33,8 +33,7 @@ class CalculatorAgentNode:
         first_number = state["first_number"]
         second_number = state["second_number"]
 
-        operation = input(
-            "Which operation would you like to perform? (1: addition, 2: subtraction, 3: multiplication, 4: division)")
+        operation = state["operation"]
 
         operation_map = {
             "1": ("addition", sum_numbers),

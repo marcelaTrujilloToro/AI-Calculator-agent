@@ -20,7 +20,7 @@ llm = ChatOpenAI(
 )
 
 system_message = SystemMessage(
-    content="Eres una calculadora diseñada para resolver las operaciones básicas")
+    content="You are a calculator designed to solve basic operations")
 
 
 class State(TypedDict):
@@ -45,5 +45,5 @@ workflow.add_edge(GET_RESULT_NODE, END)
 
 agent = workflow.compile()
 
-initial_state = {"first_number": 0, "second_number": 0, "result": 0}
+initial_state = {"first_number": 0, "second_number": 0, "result": "1"}
 agent.invoke(initial_state)
