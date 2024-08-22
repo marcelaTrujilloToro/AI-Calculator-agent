@@ -1,11 +1,11 @@
 # 🎛️ **LangGraph Calculator Agent**
 
-Este proyecto es una implementación de un agente que utiliza LangGraph y OpenAI para generar dos números aleatorios y calcular su suma. El agente está diseñado para realizar operaciones básicas mediante nodos que interactúan con un modelo de lenguaje.
+This project is an implementation of an agent that utilizes LangGraph and OpenAI to generate two random numbers and calculate their sum. The agent is designed to perform basic operations using nodes that interact with a language model.
 
-## 📋 **Descripción del Proyecto**
+## 📋 **Project Description**
 
-La aplicación consiste en un **agente** que sigue un flujo de trabajo simple:
+The application consists of an **agent** that follows a simple workflow:
 
-1. **Nodo 1:** Genera un número aleatorio del 1 al 10 utilizando el modelo de lenguaje de OpenAI.
-2. **Nodo 2:** Genera un segundo número aleatorio del 1 al 10 utilizando el mismo modelo.
-3. **Nodo Final:** Suma los dos números generados y devuelve el resultado.
+1. **Node 1:** Generates a random number from 1 to 10 using OpenAI's language model.
+2. **Node 2:** Generates a second random number from 1 to 10 using the same model.
+3. **Final Node:** Adds the two generated numbers and returns the result.
